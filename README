@@ -1,0 +1,49 @@
+App-Test-Tapat
+
+This is the README file for App-Test-Tapat. Tapat is an automated testing 
+framework which uses the TAP protocol. (More on the TAP protocol at 
+http://testanything.org/wiki/index.php/Main_Page.) This document is the
+starting point for all things Tapat.
+
+There also is a web site: http://tapat.sourceforge.net which has more information.
+Please note that site is somewhat limited at the moment.
+
+
+INSTALLATION
+
+To install this module, run the following commands:
+
+	perl Makefile.PL
+	make
+	make test
+	make install
+
+SUPPORT AND DOCUMENTATION
+
+After installing, you can find documentation for this module with the
+perldoc command.
+
+    perldoc App::Test::Tapat
+
+You can also look for information at:
+
+    RT, CPAN's request tracker
+        http://rt.cpan.org/NoAuth/Bugs.html?Dist=App-Test-Tapat
+
+    AnnoCPAN, Annotated CPAN documentation
+        http://annocpan.org/dist/App-Test-Tapat
+
+    CPAN Ratings
+        http://cpanratings.perl.org/d/App-Test-Tapat
+
+    Search CPAN
+        http://search.cpan.org/dist/App-Test-Tapat
+
+
+COPYRIGHT AND LICENCE
+
+Copyright (C) 2008 Jeremiah C. Foster
+
+This program is free software; you can redistribute it and/or modify it
+under the same terms as Perl itself.
+
