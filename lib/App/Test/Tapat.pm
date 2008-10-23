@@ -8,13 +8,13 @@ App::Test::Tapat - An automated testing framework
 
 =head1 VERSION
 
-Version 0.03_1
+Version 0.04
 
 Please note that this should be considered a developer release.
 
 =cut
 
-our $VERSION = '0.03_1';
+our $VERSION = '0.04';
 
 =head1 SYNOPSIS
 

@@ -1,6 +1,6 @@
 --- #YAML:1.0
 name:               App-Test-Tapat
-version:            0.03_1
+version:            0.04
 abstract:           An automated testing framework
 author:
     - Jeremiah C. Foster <jeremiah@cpan.org>
@@ -9,9 +9,11 @@ distribution_type:  module
 configure_requires:
     ExtUtils::MakeMaker:  0
 requires:
-    Moose:         0
-    TAP::Harness:  0
-    Test::More:    0
+    Moose:                0
+    TAP::Harness:         0
+    TAP::Parser:          0
+    TAP::Parser::Aggregator:  0
+    Test::More:           0
 no_index:
     directory:
         - t
