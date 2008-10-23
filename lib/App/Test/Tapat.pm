@@ -4,18 +4,17 @@ use Moose;
 
 =head1 NAME
 
-App::Test::Tapat - A testing framework
+App::Test::Tapat - An automated testing framework
 
 =head1 VERSION
 
-Version 0.01
+Version 0.03_1
 
-Please note that this is the first release and should be considered a developer
-release, despite the fact that it does not have the _1 suffix.
+Please note that this should be considered a developer release.
 
 =cut
 
-our $VERSION = '0.02';
+our $VERSION = '0.03_1';
 
 =head1 SYNOPSIS
 
@@ -73,7 +72,7 @@ useful one.
 =cut
 
 sub filename {
-   
+ 
   my ($self, $file) = @_;
   $file = fileparse($file);
   my ($script, $test_id) = split /_/, $file;
